@@ -11,13 +11,16 @@ This is far complete, and in the real world there would be incremental changes
 made though pull requests that would guide the direction of the implementation,
 but without that, here we are.
 
+
 Running The Server
 
   $ DEBUG=homeworkchallenge:* npm start
 
+
 Running The Script That Utilizes The API
 
   $ node axios.js
+
 
 Issues
 
