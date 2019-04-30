@@ -1,0 +1,29 @@
+Homework Assignment
+
+I was given a vague homework assignment (found at ./Homework Assignment.pdf) to
+complete using Node.js and Mongo. These are not the technogies that I would've
+picked, but I had a fun time using Node and Mongo again.
+
+The general idea of the API that I was building is that it could power an internal
+admin tool or even be suitable for external clients. There should be some idea of
+access/abilities for a given logged in user, so that normal users can't change any
+menu item's price from the API.
+
+This is far complete, and in the real world there would be incremental changes
+made though pull requests that would guide the direction of the implementation,
+but without that, here we are.
+
+Running The Server
+
+  $ DEBUG=homeworkchallenge:* npm start
+
+Running The Script That Utilizes The API
+
+  $ node axios.js
+
+Issues
+
+  - No tests. This is not how I would choose to operate, but because of the scope
+    of the assignment, concessions had to be made. Not writing tests was one.
+  - Password is currently stored in plaintext. No, I would never do this in real life. :D
+  - Any logged in user has godlike control over the data.
