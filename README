@@ -5,9 +5,7 @@ complete using Node.js and Mongo. These are not the technogies that I would've
 picked, but I had a fun time using Node and Mongo again.
 
 The general idea of the API that I was building is that it could power an internal
-admin tool or even be suitable for external clients. There should be some idea of
-access/abilities for a given logged in user, so that normal users can't change any
-menu item's price from the API.
+admin tool or even be suitable for external clients.
 
 This is far complete, and in the real world there would be incremental changes
 made though pull requests that would guide the direction of the implementation,
